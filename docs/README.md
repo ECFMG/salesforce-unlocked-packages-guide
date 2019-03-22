@@ -1,3 +1,7 @@
+---
+title: Document Center
+---
+
 ## Project Overview: 
 
 ### Goals
