@@ -33,7 +33,7 @@ Once a change is ready to be promoted, confidence that it will work in a product
 
 ### Next Steps
 
-Continue on to understand [Code Promotion](https://github.com/ECFMG/salesforce-unlocked-packages-guide/wiki/Code-Promotion) and how to structure these environments.
+Continue on to understand [Code Promotion](https://ecfmg.gitbook.io/sfdx-unlocked-packages-guide/~/drafts/-LapX5U6ImRraSuuwNvU/primary/lifecycle-guidance/code-promotion) and how to structure these environments.
 
 ### Resources
 
