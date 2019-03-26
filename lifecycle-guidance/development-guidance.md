@@ -16,6 +16,15 @@ At the start of any project \(feature development\), there should be a kick-off 
    * Creation of the initial AzureDevOps repository for the SFDX project along with the required branches - this should probably be handled by your team lead, but the role here is completely up to you and your team.
    * Creation of initial SalesForce DX project for the component - this should be created by your team / project lead as the structure of the project and any dependencies should be considered from the start of the project and who would be better than your team lead to set that up.
      * Instructions for creating the SFDX Project: [Detailed Here](https://ecfmg.gitbook.io/sfdx-unlocked-packages-guide/developer-resources/developer-machine-setup/creating-the-sfdx-project)
+     *  Here is a good example of a modular App where the project packages are decomposed in their own Repos which empower individual development team to manage the development of the packages independently. The overall project structure looks like this:
+
+        Easy Spaces App
+
+        [ES-Space-Mgmt](https://github.com/ECFMG/ES-Space-Mgmt)  
+        -[ES-Base-Objects](https://github.com/ECFMG/ES-Base-Objects)  
+        -[ES-Base-Styles](https://github.com/ECFMG/ES-Base-Styles)  
+        -[ES-Base-Code](https://github.com/ECFMG/ES-Base-Code)
+
        * [SFDX Complex Project Template](https://github.com/ECFMG/sfdx-falcon-template) - a good template to use, instructions in link
    * Creation of initial CI/CD AzureDevOps pipeline - ideally, to help the work flow smoothly all members of the team should know what's involved in creating a pipeline to avoid bottlenecks, but a central role, primarily the team / project lead should handle this initial setup.
      * Detail steps to create new CI/CD pipeline outlined [here](https://github.com/ECFMG/salesforce-unlocked-packages-guide/blob/master/salesforce-dx-and-ci-cd/pipeline-introduction.md)
