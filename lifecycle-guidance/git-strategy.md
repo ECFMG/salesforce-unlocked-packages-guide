@@ -31,6 +31,30 @@ Now that we've defined what we will have in git from a repository / SFDX project
 
 Now that we have an understanding of how the code will be structured, branched, and released, we need to understand how we can promote these changes through the different environments - after all, the code is no good without a successful deployment so it can be walked through its paces and used in a SalesForce org. I'll walk a standard update through its paces \(simplest use-case for ease of setting the stage\) and by the end, you should have an understanding of what's involved in getting your updates in the hands of QA resources and Business Owners.
 
+#### Development Flow: Can be merged with below?? (Dhaval Tested this flow)
+
+1. developer creates package
+2. developer creates version & updates .sh with stable version
+   cd/packagingDeployment.sh package MyScratchOrg
+3. commits to develop branch
+4. pushes to package branch (git checkout Package, git merge Develop & push)
+5. package branch build is picked up
+6. waiting for QA to approve and goes to QA
+7. qa approves, build deploys in QA org
+8. qa completes testing
+9. qa gives a final go
+10. a tag is created in pakage branch by a technical person in package branch
+    git tag -a UAT-v0.1.0.9 -m "This is the latest UAT version"
+    git push --tags
+11. technical person also approves the deployment approval email
+12. goes to uat
+13. another technical person creates a pull request to master
+14. Release manager approves pull request as well as deployment request
+15. Release manager creates a tag is in master branch for the prod release
+    git tag -a Prod-v0.1.0.9 -m "This is the latest Production version"
+    git push --tags
+16. CD deploys the package goes to prod
+
 #### Sample Feature Development Flow:
 
 1. A new feature has been requested by the business for account management package, so at the start of the development process a new feature branch is created "account\_management/cool\_business\_feature".
