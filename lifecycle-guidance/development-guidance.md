@@ -28,7 +28,8 @@ At the start of any project \(feature development\), there should be a kick-off 
 
 #### Development Flow: Can be merged with below?? (Dhaval Tested this flow)
 
-Personal / Feature Branch
+Personal / Feature Branch  
+
 1. developer creates a package (One time setup)
 
 Develop Branch  
