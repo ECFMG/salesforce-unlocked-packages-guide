@@ -16,7 +16,7 @@ Guidance in this document provides details on some products that the team who de
 * [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/test/index-tp?view=azure-devops) - All-in-one planned and exploratory testing solution.
 * Visual Studio Code - IDE used in tandem with Salesforce DX plugin to write edit, and deploy code into the repos.
 
-### Set-up Salesforce for continuous deployment
+### Set-up Salesforce for Continuous Delivery
 
 In order for Salesforce to receive new automated headless deployment, below are a few settings:
 
@@ -78,7 +78,7 @@ There are several reasons to use Azure Pipelines for your CI and CD solution. Yo
 * Once CI-CD pipeline is ready you can export it
 * you can add approvers at each stage of deployment
 
-![Azure Pipelines Continuous Deployment](../.gitbook/assets/AzurePipelines2.png)
+![Azure Pipelines Continuous Delivery](../.gitbook/assets/AzurePipelines2.png)
 
 Resources
 
