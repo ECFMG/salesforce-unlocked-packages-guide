@@ -36,13 +36,17 @@ https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_tr
 https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app#Tdxn4tBK-heading8
 
 
-you can define individual variable to pass to shell script, other options are variable groups and azure key vault
+### Azure Pipelines
+Automate your Salesforce builds, test, and deployments with Azure Pipelines so you spend less time with the nuts and bolts and more time being creative.
 
-Alternatively you can save a template for build and release pipeline to streamline the deployment process.
--export ci-cd
+![Azure Pipelines Salesforce Package Installation](../.gitbook/assets/AzurePipelines1.png)
 
-solution  
-alternate things I tried in appendix
+* you can define individual variable to pass to shell script, other options are variable groups and azure key vault
+* Alternatively you can save a template for build and release pipeline to streamline the deployment process.
+* Once CI-CD pipeline is ready you can export it
+* you can add approvers at each stage of deployment
+
+![Azure Pipelines Continuous Deployment](../.gitbook/assets/AzurePipelines2.png)
 
 Resources
 
