@@ -53,6 +53,7 @@ Managing packages in their sfdx-project.json file is a vital part of the develop
 * Avoid namespaces if you aren't accustomed to them
 * Specify PermissionSets within your packages
 * Refer to the [CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm) when running sfdx commands
+* Refer to the [Scratch Org and DevHub Reference](https://medium.com/@heruwala/salesforce-source-driven-development-and-scratch-org-2ccaccbcb191) when using Scratch Org
 * Adopt a robust .forceignore file to avoid pulling down unwanted metadata
 * Have developers religiously refer to the [Metadata Coverage Report](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_supported_mdapi_types.htm) to avoid packaging metadata this is incompatible with packaging.
 

@@ -22,11 +22,11 @@ Project Details:
 
 When you create a new scratch org, you need to install all of the dependencies into the scratch org first, then you push the data for the package. DX will recognize that it only needs to track the data of a certain package with the push/pull since the other data are part of other packages. This does require that the other packages are actually built into packages before working on this \(using the `force:package:version:create` command\).
 
-If for example, you are a developer in Repo2, and you're working on Package2 for the project. Your Package2 could be dependent on Package1, which is housed in a different repo, and controlled by a different developer.
+If for example, you are a developer in [Repo2](https://github.com/ECFMG/ES-Base-Code), and you're working on [Package2](https://github.com/ECFMG/ES-Base-Code/blob/master/sfdx-project.json) for the project. Your Package2 could be dependent on [Package1](https://github.com/ECFMG/ES-Base-Objects/blob/master/sfdx-project.json), which is housed in a different [repo](https://github.com/ECFMG/ES-Base-Objects), and controlled by a different developer.
 
 ### Configuring the sfdx-project.json File for Dependent Packages
 
-You simply need to tell the Package2 that it depends on the Package1 in the sfdx-project.json file that defines the package.
+You simply need to tell the Package2 that it depends on the Package1 in the [sfdx-project.json](https://github.com/ECFMG/ES-Base-Code/blob/master/sfdx-project.json) file that defines the package2.
 
 1. Create Package2 in its project using `sfdx:force:package:create` command, and specify its path and settings assuming all of the code exists. List Package1 as a dependency. 
 2. If you attempt to version, you'll get the following error: Package1 isn't defined in the sfdx-proect.json. Add it to the packageDirectories section and add the alias to packageAliases with its 0Ho ID. 
