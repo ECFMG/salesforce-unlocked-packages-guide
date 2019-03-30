@@ -23,19 +23,20 @@ In order for Salesforce to receive new automated headless deployment, below are 
 1. [Create a Self-Signed SSL Certificate and Private Key](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app#Tdxn4tBK-heading4)
 2. [Create the Connected App](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app#Tdxn4tBK-heading5)
 
+```text
+Important!  
+Be sure to copy down the consumer key—you’ll use it later
+```
 
-    Important!  
-    Be sure to copy down the consumer key—you’ll use it later
-
-
-3. [Edit Policies](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app#Tdxn4tBK-heading8)
+1. [Edit Policies](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app#Tdxn4tBK-heading8)
 
 ### Azure Pipelines
+
 Automate your Salesforce builds, test, and deployments with Azure Pipelines so you spend less time with the nuts and bolts and more time being creative.
 
-![Azure Pipelines Salesforce Package Installation](../.gitbook/assets/AzurePipelines1.png)
+![Azure Pipelines Salesforce Package Installation](../.gitbook/assets/azurepipelines1.png)
 
-Azure Pipelines is a fully featured continuous integration (CI) and continuous delivery (CD) service. It works with your preferred Git provider and can deploy to most major cloud services, which include Salesforce. Start with your code on GitHub, GitHub Enterprise Server, GitLab, Bitbucket Cloud, or Azure Repos. Then you can automate the build, testing, and deployment of your code to Salesforce.
+Azure Pipelines is a fully featured continuous integration \(CI\) and continuous delivery \(CD\) service. It works with your preferred Git provider and can deploy to most major cloud services, which include Salesforce. Start with your code on GitHub, GitHub Enterprise Server, GitLab, Bitbucket Cloud, or Azure Repos. Then you can automate the build, testing, and deployment of your code to Salesforce.
 
 ## What do I need to use Azure Pipelines?
 
@@ -45,6 +46,7 @@ To use Azure Pipelines, you need:
 * To have your source code stored in a version control system.
 
 ## Why should I use CI and CD and Azure Pipelines?
+
 Implementing CI and CD pipelines helps to ensure consistent and quality code that's readily available to users.
 
 Azure Pipelines is a quick, easy, and safe way to automate building your projects and making them available to users.
@@ -53,15 +55,14 @@ Azure Pipelines is a quick, easy, and safe way to automate building your project
 
 Continuous integration is used to automate tests and builds for your SFDX project. CI helps to catch bugs or issues early in the development cycle, when they're easier and faster to fix. Items known as artifacts are produced from CI systems. They're used by the continuous delivery release pipelines to drive automatic deployments.
 
-Continuous delivery is used to automatically deploy and test code in multiple stages to help drive quality. Continuous integration systems produce deployable artifacts, which includes infrastructure, apps and packages. Automated release pipelines consume these artifacts to release new versions and fixes to the target of your choice. 
+Continuous delivery is used to automatically deploy and test code in multiple stages to help drive quality. Continuous integration systems produce deployable artifacts, which includes infrastructure, apps and packages. Automated release pipelines consume these artifacts to release new versions and fixes to the target of your choice.
 
-
-| Continuous integration (CI)                    |  Continuous delivery (CD)                      |
-| -----------------------------------------------|------------------------------------------------|
-| Increase code coverage.                         | Automatically deploy code to production.        |
-| Build faster by splitting test and build runs.  | Ensure deployment targets have latest code.     |
-| Automatically ensure you don't ship broken code.| Use tested code from CI process.
-| Run tests continually.                          |
+| Continuous integration \(CI\) | Continuous delivery \(CD\) |
+| :--- | :--- |
+| Increase code coverage. | Automatically deploy code to production. |
+| Build faster by splitting test and build runs. | Ensure deployment targets have latest code. |
+| Automatically ensure you don't ship broken code. | Use tested code from CI process. |
+| Run tests continually. |  |
 
 ### Use Azure Pipelines for CI and CD
 
@@ -78,9 +79,9 @@ There are several reasons to use Azure Pipelines for your CI and CD solution. Yo
 * Once CI-CD pipeline is ready you can export it
 * you can add approvers at each stage of deployment
 
-![Azure Pipelines Continuous Delivery](../.gitbook/assets/AzurePipelines2.png)
+![Azure Pipelines Continuous Delivery](../.gitbook/assets/azurepipelines2.png)
 
 Resources
 
-Trailhead Module
-https://trailhead.salesforce.com/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app
+Trailhead Module [https://trailhead.salesforce.com/content/learn/modules/sfdx\_travis\_ci/sfdx\_travis\_ci\_connected\_app](https://trailhead.salesforce.com/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app)
+

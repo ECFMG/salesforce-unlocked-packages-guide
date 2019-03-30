@@ -1,6 +1,6 @@
 # Git Strategy
 
-### Overview:
+## Overview:
 
 A key part of the application lifecycle is defining where the code and related assets for development efforts will live, how they will be versioned, and how to support multiple releases across different components \(SFDX packages\) as well as multiple projects & team members per component. This document outlines specific aspects of those different sections of the ALM and how they all work together to support a seamless CI / CD pipeline. To better build a more complete understanding of how we will leverage GIT and branching, this document has been broken down into three different sections:
 
@@ -10,11 +10,11 @@ A key part of the application lifecycle is defining where the code and related a
 
 The aforementioned topics are interrelated and integral to building an understanding on how to will be leverage GIT for development and release; by the end of this document, you should have sufficient understanding of the process to begin building within the framework outlined here.
 
-### Repository Definition / Package Structure:
+## Repository Definition / Package Structure:
 
 This section assumes that you have some basic knowledge of SFDX \(SalesForce Developer Experience\) and package based deployments - if you are not familiar with SFDX or package based deployments, please consult [Trailhead ](https://trailhead.salesforce.com/content/learn/trails/sfdx_get_started)before continuing. Within SFDX, the concept of a package is integral and is the core asset by which you will be progressing through the different environments, all the way up to production. That being said, the bounds of the functionality contained within a package can at times be a judgment call. Ideally, a package should encapsulate a well defined \(and related\) set of features and should be as small \(atomic\) as we can feasibly make it. We want to avoid large, monolithic, packages that have multiple reasons for change; packages should, as much as is reasonable, be well defined and small \(think open/closed principle from SOLID\). That being said, in our git strategy, packages correspond one-to-one with repositories, to help enforce separation of concerns between packages and better define who has access to work on / change individual packages. This also allows us to think of packages as each defining a unique set of features which can have its own set of parallel development efforts \(branches\) and differing versions.
 
-### Branching Strategy:
+## Branching Strategy:
 
 **TO-DO:** [Read Thoughtworks Guidance on Trunk Based Deployment Pipelines](https://www.thoughtworks.com/insights/blog/enabling-trunk-based-development-deployment-pipelines)
 
@@ -27,11 +27,11 @@ Now that we've defined what we will have in git from a repository / SFDX project
 
 ![Designed by Dhaval Heruwala](../.gitbook/assets/gitstrat.jpg)
 
-### Continuous Integration / Continuous Delivery:
+## Continuous Integration / Continuous Delivery:
 
 Now that we have an understanding of how the code will be structured, branched, and released, we need to understand how we can promote these changes through the different environments - after all, the code is no good without a successful deployment so it can be walked through its paces and used in a SalesForce org. I'll walk a standard update through its paces \(simplest use-case for ease of setting the stage\) and by the end, you should have an understanding of what's involved in getting your updates in the hands of QA resources and Business Owners.
 
-#### Sample Feature Development Flow:
+### Sample Feature Development Flow:
 
 1. A new feature has been requested by the business for account management package, so at the start of the development process a new feature branch is created "account\_management/cool\_business\_feature".
 2. Bob, one of our developers, pulls a work ticket off of the stack located on Azure Boards and creates a personal branch off of the "cool\_business\_feature" branch, does his work for that ticket, writes his tests, tests on his personal scratch org and has determined it's good enough \(in his opinion\) to go into the feature branch - so he submits a pull request to get his change pulled into the "cool\_business\_feature" branch.
@@ -41,6 +41,5 @@ Now that we have an understanding of how the code will be structured, branched, 
 6. From here, the QA team validates the changes, and if they find nothing, gives the approval to move the package from QA to UAT / STAGING. If they find issues, they will submit tickets in Azure DevOps, which will be worked on by Bob & Jane in their personal branches \(based off of the feature, branch\), pulled into the feature branch, then develop, and finally package… Which leads us back to this step.
 7. Once reviewed by all appropriate stakeholders and approved, we move the latest validated package to our production org.
 
--- Mike Mocarski  
-
+-- Mike Mocarski
 
