@@ -32,3 +32,7 @@ It’s likely that you have some files that you don’t want to sync between the
 * Add the file to the Metadata retrieve directory \(with package.xml\)
   * `force:mdapi:convert`
 
+Resources
+
+* [Salesforce Source-Driven Development & Scratch Org](https://medium.com/@heruwala/salesforce-source-driven-development-and-scratch-org-2ccaccbcb191)
+
