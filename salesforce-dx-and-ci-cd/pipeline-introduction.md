@@ -83,5 +83,9 @@ There are several reasons to use Azure Pipelines for your CI and CD solution. Yo
 
 Resources
 
+For SFDX development & deployment Questions and Discussions
+
+[Chatter Profile](https://success.salesforce.com/ProfileView?u=0053A00000E3aWUQAZ)
+
 Trailhead Module [https://trailhead.salesforce.com/content/learn/modules/sfdx\_travis\_ci/sfdx\_travis\_ci\_connected\_app](https://trailhead.salesforce.com/content/learn/modules/sfdx_travis_ci/sfdx_travis_ci_connected_app)
 
