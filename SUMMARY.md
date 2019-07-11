@@ -33,5 +33,6 @@
   * [VS Code Configuration](developer-resources/developer-machine-setup/vs-code-configuration.md)
   * [Creating the SFDX Project](developer-resources/developer-machine-setup/creating-the-sfdx-project.md)
 * [Extras](developer-resources/extras/README.md)
+  * [Code Review Checklist](developer-resources/extras/code-review-checklist.md)
   * [Additional External Resources](developer-resources/extras/additional-external-resources.md)
 
