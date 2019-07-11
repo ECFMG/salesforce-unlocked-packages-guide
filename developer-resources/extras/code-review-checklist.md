@@ -76,6 +76,10 @@ This intent of this document is not to dictate or restrain how you write code, r
   * [Naming Conventions](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_naming_conventions.htm) 
   * [Java Style Guide ](https://google.github.io/styleguide/javaguide.html) 
   * [Apex Coding Conventions](https://gist.github.com/KorbenC/24f04b4d0f4bcf65ce5a)
+  * Additional Resources:
+    * [Apex Coding Best Practices](https://developer.salesforce.com/index.php?title=Apex_Code_Best_Practices&oldid=26951)
+    * [Apex Design Patterns](https://developer.salesforce.com/page/Apex_Design_Patterns)
+    * [Architecture Developer Center](https://developer.salesforce.com/developer-centers/architecture/)
 
 **Javascript:**
 
