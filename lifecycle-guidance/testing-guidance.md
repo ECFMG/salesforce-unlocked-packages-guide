@@ -2,7 +2,7 @@
 
 ## QA Automated Testing and Developer Unit Testing
 
-When you're ready to move your code to the next step of the development process, it's important to have rigid testing decisions in place. Each environment is going to be associated with different types of testing. We also introduce a concept called Apex Testing. The programming language that salesforce uses is called [Apex](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm), and any unit tests used will be written in Apex. The Apex testing framework makes it easy to test your Apex code. The Apex testing framework enables you to write and execute tests for your Apex classes and triggers on the Lightning Platform. Apex unit tests ensure high quality for your Apex code and let you meet requirements for deploying Apex.
+When you're ready to move your code to the next step of the development process, it's important to have rigid testing decisions in place. Each environment is going to be associated with different types of testing. We also introduce a concept called Apex Testing. The programming language that Salesforce uses is called [Apex](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm), and any unit tests used will be written in Apex. The Apex testing framework makes it easy to test your Apex code. The Apex testing framework enables you to write and execute tests for your Apex classes and triggers on the Lightning Platform. Apex unit tests ensure high quality for your Apex code and let you meet requirements for deploying Apex.
 
 We'll explore that further in this page.
 

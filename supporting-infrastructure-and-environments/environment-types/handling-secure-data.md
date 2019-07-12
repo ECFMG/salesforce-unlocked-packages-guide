@@ -2,7 +2,7 @@
 
 When moving data to sandboxes, and copying production data, it's important to hide / encrypt secure information of users, such as SSN, passwords, and anything else people could use maliciously.
 
-As of now, masking data is limited with current toolsets, however, there are methods that are available and commonly used on the SalesForce market place, as well as 3rd party applications that can allow you more flexibility with how you want to manage secure data.
+As of now, masking data is limited with current toolsets, however, there are methods that are available and commonly used on the Salesforce marketplace, as well as 3rd party applications that can allow you more flexibility with how you want to manage secure data.
 
 ### Methods to Hide Secure Data
 
