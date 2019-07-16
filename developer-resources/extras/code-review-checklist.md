@@ -29,7 +29,7 @@ This intent of this document is not to dictate or restrain how you write code, r
 | Don'ts | Do's |
 | :--- | :--- |
 | Long parameter lists \(&gt;3 params\) | Code should follow SOLID principles |
-| Null checks |  |
+| Null checks | Utility Class for code reusability |
 | Unnecessary comments / commented-out code |  |
 | Magic numbers / strings |  |
 | Object instantiation |  |
