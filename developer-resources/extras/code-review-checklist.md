@@ -80,6 +80,9 @@ This intent of this document is not to dictate or restrain how you write code, r
     * [Apex Coding Best Practices](https://developer.salesforce.com/index.php?title=Apex_Code_Best_Practices&oldid=26951)
     * [Apex Design Patterns](https://developer.salesforce.com/page/Apex_Design_Patterns)
     * [Architecture Developer Center](https://developer.salesforce.com/developer-centers/architecture/)
+    * [Apex Test Class Best Practices](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_best_practices.htm)
+    * [SOQL and SOSL Best Practices](https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_best_practices_soql_and_sosl.htm)
+    * [Execution Governors and Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm)
 
 **Javascript:**
 
