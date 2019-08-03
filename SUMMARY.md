@@ -5,6 +5,7 @@
 ## Lifecycle Guidance
 
 * [Development Models](lifecycle-guidance/development-models.md)
+* [Team Sprint Collaboration](lifecycle-guidance/team-sprint-collaboration.md)
 * [Git Strategy](lifecycle-guidance/git-strategy.md)
 * [Development Guidance](lifecycle-guidance/development-guidance.md)
 * [Testing Guidance](lifecycle-guidance/testing-guidance.md)
