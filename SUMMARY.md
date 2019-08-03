@@ -36,3 +36,7 @@
   * [Code Review Checklist](developer-resources/extras/code-review-checklist.md)
   * [Additional External Resources](developer-resources/extras/additional-external-resources.md)
 
+## Running the Org
+
+* [Team Responsibilites](running-the-org/team-responsibilites.md)
+
