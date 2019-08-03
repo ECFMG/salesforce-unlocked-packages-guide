@@ -4,9 +4,9 @@
 
 A key part of the application lifecycle is defining where the code and related assets for development efforts will live, how they will be versioned, and how to support multiple releases across different components \(SFDX packages\) as well as multiple projects & team members per component. This document outlines specific aspects of those different sections of the ALM and how they all work together to support a seamless CI / CD pipeline. To better build a more complete understanding of how we will leverage GIT and branching, this document has been broken down into three different sections:
 
-* [Repository Definition / Package Structure](https://github.com/ECFMG/salesforce-unlocked-packages-guide/wiki/Git-Strategy#repository-definition--package-structure)
-* [Branching Strategy](https://github.com/ECFMG/salesforce-unlocked-packages-guide/wiki/Git-Strategy#branching-strategy)
-* [CI / CD Integration](https://github.com/ECFMG/salesforce-unlocked-packages-guide/wiki/Git-Strategy#continuous-integration--continuous-delivery)
+* Repository Definition / Package Structure
+* Branching Strategy
+* CI / CD Integration
 
 The aforementioned topics are interrelated and integral to building an understanding on how to will be leverage GIT for development and release; by the end of this document, you should have sufficient understanding of the process to begin building within the framework outlined here.
 
