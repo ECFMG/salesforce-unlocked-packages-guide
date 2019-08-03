@@ -40,4 +40,5 @@
 ## Running the Org
 
 * [Team Responsibilites](running-the-org/team-responsibilites.md)
+* [Onboarding Resources](running-the-org/onboarding-resources.md)
 
