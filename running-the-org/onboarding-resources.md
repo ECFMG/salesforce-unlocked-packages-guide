@@ -4,7 +4,8 @@
 
 Anyone new to Salesforce will benefit by getting to know Trailhead. The following Trailhead Trailmix is a great start for anyone to get familiar with the platform.
 
-[Salesforce Starter Kit](https://trailhead.salesforce.com/en/users/gidich/trailmixes/salesforce-starter-kit)
+* [Salesforce Starter Kit](https://trailhead.salesforce.com/en/users/gidich/trailmixes/salesforce-starter-kit)
+* [Azure DevOps Resource Center](https://docs.microsoft.com/en-us/azure/devops/learn/)
 
 ## Developers
 
