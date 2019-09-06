@@ -2,6 +2,7 @@
 
 * [Project Overview](README.md)
 * [Create/Reset/Manage Test Data](create-reset-manage-test-data.md)
+* [Untitled](untitled.md)
 
 ## Lifecycle Guidance
 
@@ -10,6 +11,7 @@
 * [Git Strategy](lifecycle-guidance/git-strategy.md)
 * [Development Guidance](lifecycle-guidance/development-guidance.md)
 * [Testing Guidance](lifecycle-guidance/testing-guidance.md)
+* [Agile/DevOps shift-left testing](lifecycle-guidance/agile-devops-shift-left-testing.md)
 * [Code Promotion](lifecycle-guidance/code-promotion.md)
 * [UI Test Automation - POM Framework](lifecycle-guidance/ui-test-automation.md)
 
