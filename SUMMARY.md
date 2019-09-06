@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Project Overview](README.md)
+* [Create/Reset/Manage Test Data](create-reset-manage-test-data.md)
 
 ## Lifecycle Guidance
 
