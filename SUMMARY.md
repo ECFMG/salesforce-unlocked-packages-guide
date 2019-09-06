@@ -10,6 +10,7 @@
 * [Development Guidance](lifecycle-guidance/development-guidance.md)
 * [Testing Guidance](lifecycle-guidance/testing-guidance.md)
 * [Code Promotion](lifecycle-guidance/code-promotion.md)
+* [UI Test Automation - POM Framework](lifecycle-guidance/ui-test-automation.md)
 
 ## Salesforce DX & CI/CD
 
@@ -48,4 +49,8 @@
 * [Getting Ready for Source Driven Development](journey-to-unlocked-packages/getting-ready-for-source-driven-development.md)
 * [Moving from Unmanaged to Unlocked](journey-to-unlocked-packages/moving-from-unmanaged-to-unlocked.md)
 * [Unlocked Guidance](journey-to-unlocked-packages/unlocked-guidance.md)
+
+## Test Automation
+
+* [Managing Test Data](test-automation/managing-test-data.md)
 
