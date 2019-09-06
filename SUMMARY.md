@@ -57,4 +57,5 @@
 * [UI Test Automation - POM Framework](test-automation/ui-test-automation-pom-framework.md)
 * [Agile/DevOps Shift-left Testing](test-automation/agile-devops-shift-left-testing-1.md)
 * [Selenium Extent Reports - Dotnet Core](test-automation/selenium-extent-reports-dotnet-core.md)
+* [Dotnet Core Selenium Tests on Azure-devops-pipeline](test-automation/dotnet-core-selenium-tests-on-azure-devops-pipeline.md)
 
