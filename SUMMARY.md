@@ -55,4 +55,5 @@
 ## Test Automation
 
 * [Manage Test Data](test-automation/managing-test-data.md)
+* [UI Test Automation - POM Framework](test-automation/ui-test-automation-pom-framework.md)
 
