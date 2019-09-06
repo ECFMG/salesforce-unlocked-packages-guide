@@ -56,4 +56,5 @@
 
 * [Manage Test Data](test-automation/managing-test-data.md)
 * [UI Test Automation - POM Framework](test-automation/ui-test-automation-pom-framework.md)
+* [Agile/DevOps shift-left testing](test-automation/agile-devops-shift-left-testing.md)
 
