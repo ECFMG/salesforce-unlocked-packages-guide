@@ -56,4 +56,5 @@
 * [Manage Test Data](test-automation/managing-test-data.md)
 * [UI Test Automation - POM Framework](test-automation/ui-test-automation-pom-framework.md)
 * [Agile/DevOps Shift-left Testing](test-automation/agile-devops-shift-left-testing-1.md)
+* [Selenium Extent Reports - Dotnet Core](test-automation/selenium-extent-reports-dotnet-core.md)
 
