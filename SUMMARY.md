@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Project Overview](README.md)
-* [Create/Reset/Manage Test Data](create-reset-manage-test-data.md)
-* [Untitled](untitled.md)
-* [Untitled](untitled-1.md)
 
 ## Lifecycle Guidance
 
@@ -53,6 +50,7 @@
 * [Getting Ready for Source Driven Development](journey-to-unlocked-packages/getting-ready-for-source-driven-development.md)
 * [Moving from Unmanaged to Unlocked](journey-to-unlocked-packages/moving-from-unmanaged-to-unlocked.md)
 * [Unlocked Guidance](journey-to-unlocked-packages/unlocked-guidance.md)
+* [Untitled](journey-to-unlocked-packages/untitled.md)
 
 ## Test Automation
 
