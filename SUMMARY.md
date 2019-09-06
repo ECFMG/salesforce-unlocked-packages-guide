@@ -50,12 +50,10 @@
 * [Moving from Unmanaged to Unlocked](journey-to-unlocked-packages/moving-from-unmanaged-to-unlocked.md)
 * [Unlocked Guidance](journey-to-unlocked-packages/unlocked-guidance.md)
 * [Untitled](journey-to-unlocked-packages/untitled.md)
-* [Agile/DevOps shift-left testing](journey-to-unlocked-packages/agile-devops-shift-left-testing.md)
 
 ## Test Automation
 
 * [Manage Test Data](test-automation/managing-test-data.md)
 * [UI Test Automation - POM Framework](test-automation/ui-test-automation-pom-framework.md)
-* [Agile/DevOps shift-left testing](test-automation/agile-devops-shift-left-testing.md)
 * [Agile/DevOps Shift-left Testing](test-automation/agile-devops-shift-left-testing-1.md)
 
