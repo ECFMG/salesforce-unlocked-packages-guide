@@ -11,7 +11,6 @@
 * [Testing Guidance](lifecycle-guidance/testing-guidance.md)
 * [Agile/DevOps shift-left testing](lifecycle-guidance/agile-devops-shift-left-testing.md)
 * [Code Promotion](lifecycle-guidance/code-promotion.md)
-* [UI Test Automation - POM Framework](lifecycle-guidance/ui-test-automation.md)
 
 ## Salesforce DX & CI/CD
 
