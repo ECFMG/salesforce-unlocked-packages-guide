@@ -109,6 +109,7 @@ Running a Salesforce Org requires a team effort, and will likely require team me
 * **Resources**
   * [https://github.com/dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
   * [SRE Trailmix](https://trailhead.salesforce.com/users/gidich/trailmixes/sre-starter-kit)
+  * [Salesforce  Telemetry with Azure App Insights \(SFDX Plugin\)](https://www.npmjs.com/package/@salesforce/telemetry)
 
 #### DevOps Engineering
 
@@ -184,6 +185,9 @@ Running a Salesforce Org requires a team effort, and will likely require team me
   * Build, Maintain, Evangelize and Publish Software Architecture Standards for the organization
   * Manually review pull requests for adherence to Software Architecture Standards
     * Maintain [documented code review process](https://ecfmg.gitbook.io/sfdx-unlocked-packages-guide/developer-resources/extras/code-review-checklist) on GitBook
+* Resources
+  * [sfpowerkit:org:healthcheck](https://github.com/Accenture/sfpowerkit#sfpowerkitorghealthcheck)
+  * [sfpowerkit:org:orgcoverage](https://github.com/Accenture/sfpowerkit#sfpowerkitorgorgcoverage)
 
 **Automated UI Test Development**
 
