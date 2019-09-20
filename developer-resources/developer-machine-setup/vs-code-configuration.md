@@ -10,7 +10,7 @@ Visual Studio Code can be used by both developers and QA staff alike.
 
 #### Prerequisites
 
-1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon the [Java 8 Platform](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), Standard Edition Development Kit \(JDK\).
+1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\)
 2. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Download VS Code
@@ -29,6 +29,12 @@ Salesforce needs to be configured to enable SFDX. This is a one-time setup for t
    1. Navigate to Setup &gt; Settings &gt; Development &gt; Dev Hub
    2. Move the slider to enable Dev Hub and G2P Packaging
 2. From a command prompt in Visual Studio Code issue `sfdx force:auth:web:login` to log into the Dev Hub using the CLI, which will authorize you to create scratch orgs.
+
+## Additional VS Code Plugins
+
+* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Connects with SonarCloud
+* [Prettify](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Keeps code formatting consistent
+* [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - For building Automated UI Tests with Selenium
 
 ## Resources
 
