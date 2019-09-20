@@ -36,6 +36,14 @@ Salesforce needs to be configured to enable SFDX. This is a one-time setup for t
 * [Prettify](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Keeps code formatting consistent
 * [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - For building Automated UI Tests with Selenium
 
+
+
+## VS Code Configurations
+
+Automatically push code to org when saving:
+
+`salesforcedx-vscode-core.push-or-deploy-on-save.enabled` to `true`.
+
 ## Resources
 
 * [Salesforce Visual Studio Code Extensions Home Page](https://developer.salesforce.com/tools/extension_vscode)
