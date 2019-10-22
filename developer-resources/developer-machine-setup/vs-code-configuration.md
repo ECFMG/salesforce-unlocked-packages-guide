@@ -21,6 +21,10 @@ Getting a workstation setup with VSCode and configured for Salesforce developmen
    * [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 2. Install the official [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode#overview) into Visual Studio Code.
 
+**Connect VS Code to Azure DevOps GIT Repos** 
+
+[https://azuredevopslabs.com/labs/azuredevops/git/](https://azuredevopslabs.com/labs/azuredevops/git/)
+
 ## Salesforce SFDX Setup
 
 Salesforce needs to be configured to enable SFDX. This is a one-time setup for the Developer org.

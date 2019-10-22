@@ -14,7 +14,6 @@
 
 ## Salesforce DX & CI/CD
 
-* [Pipeline Introduction](salesforce-dx-and-ci-cd/pipeline-introduction.md)
 * [Quality Hooks](salesforce-dx-and-ci-cd/quality-hooks.md)
 
 ## Supporting Infrastructure & Environments
@@ -24,6 +23,10 @@
   * [Sandbox Guidance](supporting-infrastructure-and-environments/environment-types/sandbox-guidance.md)
   * [Handling Secure Data](supporting-infrastructure-and-environments/environment-types/handling-secure-data.md)
 
+## Opinionated Guide
+
+* [Introduction](opinionated-guide/introduction.md)
+
 ## Developer Resources
 
 * [SFDX Package Development](developer-resources/sfdx-package-development/README.md)
@@ -31,6 +34,7 @@
   * [Creating Unlocked Packages](developer-resources/sfdx-package-development/creating-unlocked-packages/README.md)
     * [Package Errors](developer-resources/sfdx-package-development/creating-unlocked-packages/package-errors.md)
   * [Project Structure](developer-resources/sfdx-package-development/project-structure.md)
+* [Pipeline Introduction](developer-resources/pipeline-introduction.md)
 * [Developer Machine Setup](developer-resources/developer-machine-setup/README.md)
   * [VS Code Configuration](developer-resources/developer-machine-setup/vs-code-configuration.md)
   * [Creating the SFDX Project](developer-resources/developer-machine-setup/creating-the-sfdx-project.md)
