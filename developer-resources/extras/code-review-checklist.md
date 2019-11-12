@@ -83,6 +83,10 @@ This intent of this document is not to dictate or restrain how you write code, r
     * [Apex Test Class Best Practices](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_best_practices.htm)
     * [SOQL and SOSL Best Practices](https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_best_practices_soql_and_sosl.htm)
     * [Execution Governors and Limits](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm)
+    * Apex Enterprise Patterns:
+      * [Dependency Injection](https://developer.salesforce.com/blogs/2019/07/breaking-runtime-dependencies-with-dependency-injection.html)
+      * [Service Layer](https://trailhead.salesforce.com/en/content/learn/modules/apex_patterns_sl)
+      * [Domain & Selecter Layer](https://trailhead.salesforce.com/en/content/learn/modules/apex_patterns_dsl)
 
 **Javascript:**
 
