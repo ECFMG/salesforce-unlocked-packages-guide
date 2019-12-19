@@ -36,8 +36,8 @@ Salesforce needs to be configured to enable SFDX. This is a one-time setup for t
 
 ## Additional VS Code Plugins
 
-* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Connects with SonarCloud
-* [Prettify](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Keeps code formatting consistent
+* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Connects with SonarCloud \( [Details on how to configure SonarLint](../extras/sonarcloud-sonarlint.md#sonarlint-installation-guide)\)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  - Keeps code formatting consistent
 * [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - For building Automated UI Tests with Selenium
 
 
