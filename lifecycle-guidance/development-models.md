@@ -1,6 +1,6 @@
 # Development Models
 
-As we eluded to in the overview, Salesforce development differs from traditional application development. The biggest difference between Salesforce development and your typical custom application development is that in custom application development, the code repository is always the source truth. With some recent changes released in Salesforce DX, you can begin to develop in a similar fashion. However, before we get ahead of ourselves, let's detail what's available from a development model perspective in Salesforce today. Salesforce supports three development models and each of these models places a different focus on the source of truth.
+As we alluded to in the overview, Salesforce development differs from traditional application development. The biggest difference between Salesforce development and your typical custom application development is that in custom application development, the code repository is always the source truth. With some recent changes released in Salesforce DX, you can begin to develop in a similar fashion. However, before we get ahead of ourselves, let's detail what's available from a development model perspective in Salesforce today. Salesforce supports three development models and each of these models places a different focus on the source of truth.
 
 * Org Development Model
   * Source of Truth = **Production Org**
