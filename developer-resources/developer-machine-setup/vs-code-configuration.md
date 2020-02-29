@@ -10,7 +10,8 @@ Visual Studio Code can be used by both developers and QA staff alike.
 
 #### Prerequisites
 
-1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\)
+1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\) 
+   * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing Fees.
 2. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Download VS Code
