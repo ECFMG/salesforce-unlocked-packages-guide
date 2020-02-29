@@ -24,19 +24,15 @@ Configuration Process:
 11. Paste the following into the settings.json file
 
     ```text
-    "sonarlint.connectedMode.servers": [
-     {
-     "serverId": "<<YOUR COMPANY NAME>>", 
-     "serverUrl": "https//sonarcloud.io", 
-     "organizationKey": "<<YOUR COMPANY NAME>>",
-     "token": "<<YOUR VSCODE TOKEN GOES HERE>>" // UNIQUE PER USER, DON'T SHARE WITH OTHERS
-     }
-    ],
+    "sonarlint.connectedMode.connections.sonarcloud": [
+        {
+          "organizationKey": "<<YOUR COMPANY NAME>>",
+          "token": "<<YOUR VSCODE TOKEN GOES HERE>>"
+        }
+      ],
     "sonarlint.connectedMode.project": {
-     "serverId": "<<YOUR COMPANY NAME>>",
-     "projectKey": "<<YOUR PROJECT KEY>>",
-     "language": "apex"
-    },
+        "projectKey": "<<YOUR PROJECT KEY>>"
+      },
     ```
 
 12. Replace the &lt;&lt;YOUR VSCODE TOKEN GOES HERE&gt;&gt; with the _token_ you created earlier.
@@ -44,9 +40,26 @@ Configuration Process:
     * You can look up the _organization key_ on the [organization key page](https://sonarcloud.io/account/organizations).
 14. Replace the &lt;&lt;YOUR PROJECT KEY&gt;&gt; with your _project key_.
     * You can look up the _project key_ under Administration &gt; Projects Management on your organization's page.
-15. Restart VSCode and reopen your VSCode Project related to your ScratchOrg
+15. You will also likely want to set the Sonarlint &gt; LS: Java Home to the follow the path to your JDK in the same manner you had do to when installing [AdoptOpenJavaSDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk)
+16. Restart VSCode and reopen your VSCode Project related to your ScratchOrg
 
+The following is a sample settings.json file for reference:
 
+```text
+{
+    "sonarlint.connectedMode.connections.sonarcloud": [
+        {
+          "organizationKey": "ecfmg",
+          "token": "b33e974....76331859"
+        }
+      ],
+    "sonarlint.connectedMode.project": {
+        "projectKey": "sfdc"
+      },
+    "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+    "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+}
+```
 
 
 
