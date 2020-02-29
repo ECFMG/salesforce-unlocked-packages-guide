@@ -11,7 +11,7 @@ Visual Studio Code can be used by both developers and QA staff alike.
 #### Prerequisites
 
 1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\) 
-   * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing Fees.
+   * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing fees.
 2. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Download VS Code
@@ -35,13 +35,13 @@ Salesforce needs to be configured to enable SFDX. This is a one-time setup for t
    2. Move the slider to enable Dev Hub and G2P Packaging
 2. From a command prompt in Visual Studio Code issue `sfdx force:auth:web:login` to log into the Dev Hub using the CLI, which will authorize you to create scratch orgs.
 
-## Additional VS Code Plugins
+## Additional VS Code Plugins for SFDX Projects
 
-* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Connects with SonarCloud \( [Details on how to configure SonarLint](../extras/sonarcloud-sonarlint.md#sonarlint-installation-guide)\)
+* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - Provides realtime feedback on writing better code. 
+  * Connects with [SonarCloud](https://sonarcloud.io/) \(free for public projects ~$10/mo for most Salesforce projects\)
+  * [Details on how to configure SonarLint](../extras/sonarcloud-sonarlint.md#sonarlint-installation-guide)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  - Keeps code formatting consistent
 * [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - For building Automated UI Tests with Selenium
-
-
 
 ## VS Code Configurations
 
