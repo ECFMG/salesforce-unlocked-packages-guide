@@ -12,7 +12,10 @@ Visual Studio Code can be used by both developers and QA staff alike.
 
 1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\) 
    * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing fees.
-2. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
+2. GIT
+   1. The [GIT Guide](https://help.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git) from GitHub is a great resource for setting up and configuration GIT
+      1. Mac Users - You may want to consider [connecting with SSH and adding SSH key to the SSH Agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+3. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Download VS Code
 
@@ -42,6 +45,7 @@ Salesforce needs to be configured to enable SFDX. This is a one-time setup for t
   * [Details on how to configure SonarLint](../extras/sonarcloud-sonarlint.md#sonarlint-installation-guide)
 * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  - Keeps code formatting consistent
 * [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) - For building Automated UI Tests with Selenium
+* [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) - Helps with working with XML Files
 
 ## VS Code Configurations
 
