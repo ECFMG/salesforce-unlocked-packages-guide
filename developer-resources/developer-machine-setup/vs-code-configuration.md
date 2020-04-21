@@ -10,12 +10,9 @@ Visual Studio Code can be used by both developers and QA staff alike.
 
 #### Prerequisites
 
-1. Java 8 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\) 
-   * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing fees.
-2. GIT
-   1. The [GIT Guide](https://help.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git) from GitHub is a great resource for setting up and configuration GIT
+1. GIT
+   1. The [GIT Guide](https://help.github.com/en/github/getting-started-with-github/set-up-git#setting-up-git) from GitHub is a great resource for setting up and configuring GIT
       1. Mac Users - You may want to consider [connecting with SSH and adding SSH key to the SSH Agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-3. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 
 #### Download VS Code
 
@@ -23,7 +20,10 @@ Getting a workstation setup with VSCode and configured for Salesforce developmen
 
 1. Download and Install Visual Studio Code
    * [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-2. Install the official [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode#overview) into Visual Studio Code.
+2. Java 11 Platform, Standard Edition Development Kit Some features in Salesforce Extensions for VS Code depend upon [Java](https://forcedotcom.github.io/salesforcedx-vscode/articles/getting-started/java-setup) \(Standard Edition Development Kit \(JDK\)\) 
+   * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing fees.
+3. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
+4. Install the official [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode#overview) into Visual Studio Code.
 
 **Connect VS Code to Azure DevOps GIT Repos** 
 
