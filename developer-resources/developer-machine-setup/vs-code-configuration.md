@@ -27,7 +27,17 @@ Getting a workstation setup with VSCode and configured for Salesforce developmen
 
 **Connect VS Code to Azure DevOps GIT Repos** 
 
-[https://azuredevopslabs.com/labs/azuredevops/git/](https://azuredevopslabs.com/labs/azuredevops/git/)
+{% embed url="https://azuredevopslabs.com/labs/azuredevops/git/" %}
+
+**Learn DX**
+
+You may want to follow this trail to get familiar with Salesforce DX
+
+{% embed url="https://trailhead.salesforce.com/users/gidich/trailmixes/sfdx-developer-starter-kit" %}
+
+
+
+
 
 ## Salesforce SFDX Setup
 
