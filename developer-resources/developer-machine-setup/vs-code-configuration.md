@@ -24,6 +24,13 @@ Getting a workstation setup with VSCode and configured for Salesforce developmen
    * The [AdoptOpenJDK](https://developer.salesforce.com/tools/vscode/en/getting-started/java-setup/#adoptopenjdk) is a recommended alternative to Oracle's Java which carries licensing fees.
 3. Install the Salesforce [CLI](https://developer.salesforce.com/tools/sfdxcli)
 4. Install the official [Salesforce Extension Pack](https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode#overview) into Visual Studio Code.
+5. Configure Settings in Visual Studio Code to point to the JVM
+
+   1. Open Settings, Navigate to User
+   2. Select Salesforce Apex Configuration 
+   3. Select Java: Home and set path correctly \(See example below\) 
+
+![](../../.gitbook/assets/image%20%284%29.png)
 
 **Connect VS Code to Azure DevOps GIT Repos** 
 
