@@ -27,9 +27,9 @@ At the start of any project \(feature development\), there should be a kick-off 
 2. All SFDX Project Development:
    * Creation of a feature branch off of development for the newly defined effort - your team lead or repository / project owner should handle the branch creation since they will also handle the merging & tagging of future production releases, so ensuring the branches are created correctly is important.
      * Data design session: Assuming we will be needing data for a given feature, we should first look into how we will need to structure the data to support it. Out of this session, we will deliver the following:
-   * Data structure impact analysis: Impacts to existing data types & detail any new data types.
-   * Initial data scripts to populate the data for test purposes.
-     * **NOTE:** This may be deferred to a later sprint as we may not know all of the static / test data needed at the outset, but we should at least log the effort - as it will be needed to get the work to a test environment and this work should be captured.
+        * Data structure impact analysis: Impacts to existing data types & detail any new data types.
+        * Initial data scripts to populate the data for test purposes.
+          * **NOTE:** This may be deferred to a later sprint as we may not know all of the static / test data needed at the outset, but we should at least log the effort - as it will be needed to get the work to a test environment and this work should be captured.
 
 ## Development Process
 
